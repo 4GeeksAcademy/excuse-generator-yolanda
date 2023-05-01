@@ -1,0 +1,41 @@
+div.caja {
+  border: 5px;
+  background: rgb(255, 255, 255);
+  box-shadow: 2px 2px 2px 2px gray;
+  border-radius: 30px;
+  width: 700px;
+  height: 400px;
+  margin-left: 550px;
+  margin-top: 100px;
+  text-align: center;
+  position: relative;
+}
+h1 {
+  font-size: 50px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+div.caja button {
+  float: right;
+  margin-top: 80px;
+  margin-right: 20px;
+  height: 40px;
+  box-shadow: 1px 1px 1px 1px rgb(14, 13, 13);
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 17px;
+  position: fixed;
+}
+p {
+  padding-top: 100px;
+  text-align: center;
+  font-size: 40px;
+  font-family: "Times New Roman", Times, serif;
+  text-decoration: underline 6px rgb(59, 56, 56);
+}
+.container {
+  box-sizing: border-box;
+}
+body {
+  background: rgba(0, 0, 0, 0.164);
+}
