@@ -1,4 +1,4 @@
-function generate() {
+const generate = () => {
   let who = ["The dog", "My grandma", "His turtle", "My bird"];
   let action = ["ate", "peed", "crushed", "broke"];
   let what = ["my homework", "the keys", "the car"];
@@ -24,4 +24,4 @@ function generate() {
     " " +
     when[generate_when] +
     "</p> <button onclick='generate()'>Generate excuse</button>";
-}
+};

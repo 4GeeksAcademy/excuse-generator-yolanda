@@ -5,10 +5,14 @@ div.caja {
   border-radius: 30px;
   width: 700px;
   height: 400px;
-  margin-left: 550px;
   margin-top: 100px;
   text-align: center;
   position: relative;
+}
+.caja-contenedor {
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
 h1 {
   font-size: 50px;
@@ -16,7 +20,7 @@ h1 {
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 div.caja button {
-  float: right;
+  
   margin-top: 80px;
   margin-right: 20px;
   height: 40px;
@@ -24,7 +28,7 @@ div.caja button {
   border-radius: 10px;
   font-weight: bold;
   font-size: 17px;
-  position: fixed;
+
 }
 p {
   padding-top: 100px;
